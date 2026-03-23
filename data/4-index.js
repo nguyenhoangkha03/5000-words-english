@@ -1073,5 +1073,597 @@ export const words = [
   root:"Từ gốc Germanic/Pháp cổ liên quan đến dải viền, sau phát triển thành chuỗi mục được sắp xếp",
   tip:"Trong tiếng Anh hiện đại, <em>list</em> rất hay đi với các danh từ chỉ mục đích: <em>shopping list, reading list, waiting list, to-do list</em>. Học theo cụm sẽ dùng tự nhiên hơn nhiều.",
   practice:"Đặt 1 câu với \"list\" là danh từ và 1 câu với \"list\" là động từ."
+},
+{
+  id:221, word:"though", ipa:"/ðoʊ/",
+  type:"Liên từ (Conjunction) / Trạng từ (Adverb)",
+  meaning:"mặc dù, dù rằng; tuy nhiên, nhưng mà",
+  explanation:"\"Though\" thường dùng để nối hai ý có sự đối lập nhẹ. Nó gần nghĩa với <em>although</em>, nhưng linh hoạt hơn trong văn nói và có thể đứng cuối câu với nghĩa \"tuy nhiên / nhưng mà\". Phân biệt <em>though</em> và <em>but</em>: <em>though</em> thường mở đầu mệnh đề phụ hoặc đứng cuối câu; <em>but</em> nối trực tiếp hai mệnh đề ngang hàng. Cụm hay gặp: <em>even though</em> (mặc dù), <em>as though</em> (như thể), <em>though not</em> (dù không hoàn toàn).",
+  examples:[
+    {en:"<b>Though</b> he was tired, he kept working.", vi:"Mặc dù mệt, anh ấy vẫn tiếp tục làm việc."},
+    {en:"I liked the movie. It was a bit long, <b>though</b>.", vi:"Tôi thích bộ phim. Nhưng mà nó hơi dài một chút."},
+    {en:"She smiled as <b>though</b> nothing had happened.", vi:"Cô ấy mỉm cười như thể chẳng có chuyện gì xảy ra."}
+  ],
+  pvSection:{title:"Cụm với THOUGH", items:[
+    {pv:"even though", meaning:"Mặc dù — <em>\"Even though it rained, we went out\"</em>"},
+    {pv:"as though", meaning:"Như thể — <em>\"He talks as though he knows everything\"</em>"},
+    {pv:"though...", meaning:"Dù rằng... — <em>\"Though it's expensive, it's worth it\"</em>"},
+    {pv:"..., though", meaning:"Nhưng mà / tuy nhiên — <em>\"Nice idea, though\"</em>"}
+  ]},
+  family:[
+    {word:"although", pos:"conj.", meaning:"mặc dù"},
+    {word:"even though", pos:"conj.", meaning:"mặc dù (nhấn mạnh hơn)"},
+    {word:"as though", pos:"conj.", meaning:"như thể"}
+  ],
+  correct:"though he tried / even though I was busy / nice, though",
+  wrong:"Though I was tired but I kept going. (❌ Không dùng cùng lúc \"though\" và \"but\" trong cùng cấu trúc này)",
+  synonyms:"although (mặc dù), even if (ngay cả khi — gần nghĩa tùy ngữ cảnh), however (tuy nhiên — khi đứng cuối câu/ý)",
+  antonyms:"therefore (vì vậy), so (nên), because (bởi vì)",
+  root:"Từ tiếng Anh cổ \"theah\" nghĩa là dù, mặc dù",
+  tip:"Mẫu rất tự nhiên trong hội thoại: <em>It's expensive, though.</em> = \"Nó đắt đấy, nhưng mà...\" Đây là cách nói mềm hơn <em>but</em>.",
+  practice:"Đặt 2 câu: một câu mở đầu bằng \"Though...\", một câu dùng \"though\" ở cuối câu."
+},
+{
+  id:222, word:"feel", ipa:"/fiːl/",
+  type:"Động từ (Verb) / Danh từ (Noun)",
+  meaning:"cảm thấy; sờ, chạm để cảm nhận; cảm giác",
+  explanation:"\"Feel\" là từ rất quan trọng vì liên quan cả cảm xúc lẫn cảm giác vật lý. Bạn có thể <em>feel happy</em> (cảm thấy vui), <em>feel cold</em> (cảm thấy lạnh), hoặc <em>feel the fabric</em> (sờ vải). Là danh từ, <em>feel</em> dùng trong cụm như <em>the feel of silk</em> (cảm giác của lụa). Cụm thường gặp: <em>feel like</em>, <em>feel better</em>, <em>feel free</em>, <em>hurt someone's feelings</em> (từ họ hàng).",
+  examples:[
+    {en:"I <b>feel</b> much better after a good night's sleep.", vi:"Tôi cảm thấy tốt hơn nhiều sau một giấc ngủ ngon."},
+    {en:"Can I <b>feel</b> this jacket before I buy it?", vi:"Tôi có thể sờ thử chiếc áo khoác này trước khi mua không?"},
+    {en:"The room has a warm, friendly <b>feel</b>.", vi:"Căn phòng mang lại cảm giác ấm áp, thân thiện."}
+  ],
+  pvSection:{title:"Cụm với FEEL", items:[
+    {pv:"feel like", meaning:"Muốn; thấy như là — <em>\"I feel like eating noodles\"</em>"},
+    {pv:"feel free", meaning:"Cứ tự nhiên — <em>\"Feel free to ask questions\"</em>"},
+    {pv:"feel better", meaning:"Cảm thấy khỏe hơn / khá hơn — <em>\"I hope you feel better soon\"</em>"},
+    {pv:"feel for", meaning:"thông cảm với; sờ tìm — <em>\"I really feel for her\"</em>"}
+  ]},
+  family:[
+    {word:"feeling", pos:"n.", meaning:"cảm xúc, cảm giác"},
+    {word:"fearless", pos:"adj.", meaning:"không sợ hãi"},
+    {word:"sensitive", pos:"adj.", meaning:"nhạy cảm"},
+    {word:"felt", pos:"v.", meaning:"quá khứ/quá khứ phân từ của feel"}
+  ],
+  correct:"feel tired / feel like going out / feel the heat / a strange feel",
+  wrong:"I am feel tired. (❌ Đúng: \"I feel tired\" hoặc \"I am tired\")",
+  synonyms:"sense (cảm nhận), experience (trải qua/cảm thấy), touch (sờ), perceive (cảm nhận)",
+  antonyms:"ignore (phớt lờ), overlook (không nhận ra), numb (mất cảm giác — nghĩa đối lập theo ngữ cảnh)",
+  root:"Từ tiếng Anh cổ \"felan\" nghĩa là sờ, nhận thấy",
+  tip:"Cấu trúc rất hay sai: sau \"feel\" thường dùng tính từ, không phải trạng từ. Đúng là <em>I feel bad / happy / sleepy</em>, không phải <em>feel badly</em> trong nghĩa này.",
+  practice:"Đặt 2 câu: một câu về cảm xúc với \"feel\", một câu về chạm/sờ với \"feel\"."
+},
+{
+  id:223, word:"talk", ipa:"/tɔːk/",
+  type:"Động từ (Verb) / Danh từ (Noun)",
+  meaning:"nói chuyện, trò chuyện; cuộc nói chuyện, bài nói",
+  explanation:"\"Talk\" thường chỉ việc nói chuyện thân mật, trao đổi thông tin, khác với <em>speak</em> vốn trang trọng hơn hoặc nhấn mạnh khả năng ngôn ngữ. Là danh từ, <em>talk</em> có thể là cuộc nói chuyện ngắn hoặc bài phát biểu ngắn. Cụm hay gặp: <em>talk about</em>, <em>talk to</em>, <em>talk with</em>, <em>small talk</em>, <em>pep talk</em>, <em>give a talk</em>.",
+  examples:[
+    {en:"Can we <b>talk</b> after class?", vi:"Chúng ta có thể nói chuyện sau giờ học không?"},
+    {en:"She gave a short <b>talk</b> on healthy eating.", vi:"Cô ấy có một bài nói ngắn về ăn uống lành mạnh."},
+    {en:"They spent hours <b>talking</b> about their future.", vi:"Họ dành hàng giờ để nói về tương lai của mình."}
+  ],
+  pvSection:{title:"Cụm với TALK", items:[
+    {pv:"talk about", meaning:"Nói về — <em>\"Let's talk about your plan\"</em>"},
+    {pv:"talk to / talk with", meaning:"Nói chuyện với — <em>\"I need to talk to you\"</em>"},
+    {pv:"small talk", meaning:"Chuyện xã giao — <em>\"I'm not good at small talk\"</em>"},
+    {pv:"pep talk", meaning:"Lời động viên — <em>\"The coach gave us a pep talk\"</em>"}
+  ]},
+  family:[
+    {word:"talkative", pos:"adj.", meaning:"hay nói"},
+    {word:"talker", pos:"n.", meaning:"người hay nói"},
+    {word:"talking", pos:"adj./n.", meaning:"đang nói; việc nói chuyện"},
+    {word:"speaker", pos:"n.", meaning:"người nói, diễn giả"}
+  ],
+  correct:"talk to a friend / talk about work / give a talk / small talk",
+  wrong:"We discussed about it and talked about it. (⚠️ \"talk about\" đúng, nhưng \"discuss\" không đi với \"about\")",
+  synonyms:"speak (nói), chat (tán gẫu), discuss (thảo luận), converse (trò chuyện — trang trọng)",
+  antonyms:"listen (lắng nghe), stay silent (giữ im lặng), hush (im đi)",
+  root:"Từ Germanic cổ liên quan đến nói năng, phát ngôn",
+  tip:"Phân biệt nhanh: <em>talk</em> = trò chuyện tự nhiên; <em>speak</em> = nói/trình bày/trang trọng hơn. Ví dụ: <em>talk to a friend</em> nhưng <em>speak English</em>.",
+  practice:"Đặt 2 câu: một câu với \"talk about\", một câu với \"talk to\"."
+},
+{
+  id:224, word:"bird", ipa:"/bɜːrd/",
+  type:"Danh từ (Noun)",
+  meaning:"con chim",
+  explanation:"\"Bird\" chỉ các loài động vật có lông vũ, cánh và mỏ. Đây là từ nền tảng trong miêu tả thiên nhiên, nhưng cũng xuất hiện trong nhiều thành ngữ thú vị như <em>early bird</em> (người dậy sớm), <em>bird's-eye view</em> (góc nhìn từ trên cao), <em>the birds and the bees</em> (cách nói bóng về giới tính/sinh sản).",
+  examples:[
+    {en:"A small <b>bird</b> landed on the window.", vi:"Một con chim nhỏ đậu lên cửa sổ."},
+    {en:"My sister is an early <b>bird</b> — she wakes up at five.", vi:"Chị tôi là người dậy sớm — chị ấy thức lúc năm giờ."},
+    {en:"We watched colorful <b>birds</b> by the river this morning.", vi:"Sáng nay chúng tôi ngắm những con chim đầy màu sắc bên sông."}
+  ],
+  pvSection:{title:"Cụm với BIRD", items:[
+    {pv:"early bird", meaning:"Người dậy sớm / người đến sớm — <em>\"She's always the early bird\"</em>"},
+    {pv:"bird's-eye view", meaning:"Góc nhìn từ trên cao — <em>\"The hill gives a bird's-eye view of the town\"</em>"},
+    {pv:"a free bird", meaning:"Người tự do — <em>\"He wants to live like a free bird\"</em>"},
+    {pv:"birds of a feather", meaning:"Ngưu tầm ngưu, mã tầm mã — <em>\"Birds of a feather flock together\"</em>"}
+  ]},
+  family:[
+    {word:"birdsong", pos:"n.", meaning:"tiếng chim hót"},
+    {word:"birdhouse", pos:"n.", meaning:"nhà chim"},
+    {word:"birdwatching", pos:"n.", meaning:"ngắm chim"},
+    {word:"birdlike", pos:"adj.", meaning:"giống chim"}
+  ],
+  correct:"a wild bird / bird song / early bird / watch birds",
+  wrong:"There are many bird in the tree. (❌ Với số nhiều: \"many birds\")",
+  synonyms:"fowl (chim/gia cầm — trang trọng), creature (sinh vật — rất rộng), winged animal (động vật có cánh)",
+  antonyms:"fish (cá), mammal (động vật có vú) — theo phân loại",
+  root:"Từ tiếng Anh cổ \"brid\"/\"bird\" nghĩa là chim non rồi mở rộng thành chim nói chung",
+  tip:"Học luôn thành ngữ nổi tiếng: <em>The early bird catches the worm.</em> = Ai dậy sớm/chủ động thì có lợi thế.",
+  practice:"Đặt 1 câu tả một con chim bạn từng thấy và 1 câu với \"early bird\"."
+},
+{
+  id:225, word:"soon", ipa:"/suːn/",
+  type:"Trạng từ (Adverb)",
+  meaning:"sớm, sớm thôi, trong thời gian ngắn nữa",
+  explanation:"\"Soon\" diễn tả điều gì đó sẽ xảy ra trong một khoảng thời gian không lâu nữa. Nó thường dùng trong thì tương lai hoặc với ý mong điều gì sớm xảy ra. Phân biệt <em>soon</em> và <em>early</em>: <em>soon</em> = trong thời gian ngắn nữa; <em>early</em> = sớm hơn thời điểm dự kiến hoặc lúc đầu. Ví dụ: <em>See you soon</em> khác với <em>arrive early</em>.",
+  examples:[
+    {en:"The bus will arrive <b>soon</b>.", vi:"Xe buýt sẽ đến sớm thôi."},
+    {en:"Get well <b>soon</b>!", vi:"Chúc bạn mau khỏe!"},
+    {en:"I'll call you as <b>soon</b> as I get home.", vi:"Tôi sẽ gọi cho bạn ngay khi tôi về đến nhà."}
+  ],
+  pvSection:{title:"Cụm với SOON", items:[
+    {pv:"see you soon", meaning:"Hẹn sớm gặp lại — <em>\"Thanks for coming. See you soon!\"</em>"},
+    {pv:"as soon as", meaning:"Ngay khi — <em>\"Text me as soon as you arrive\"</em>"},
+    {pv:"too soon", meaning:"quá sớm — <em>\"It's too soon to decide\"</em>"},
+    {pv:"soon enough", meaning:"rồi sẽ sớm thôi — <em>\"You'll understand soon enough\"</em>"}
+  ]},
+  family:[
+    {word:"sooner", pos:"adv.", meaning:"sớm hơn"},
+    {word:"soonest", pos:"adv.", meaning:"sớm nhất"},
+    {word:"as soon as possible", pos:"phrase", meaning:"càng sớm càng tốt"}
+  ],
+  correct:"come soon / see you soon / as soon as possible / too soon",
+  wrong:"I will soonly finish it. (❌ Không có \"soonly\"; dùng \"soon\" hoặc \"quickly\")",
+  synonyms:"shortly (sớm thôi), quickly (nhanh chóng — gần nghĩa tùy ngữ cảnh), before long (chẳng bao lâu nữa)",
+  antonyms:"later (muộn hơn), eventually (cuối cùng — không nhất thiết sớm), never (không bao giờ)",
+  root:"Từ tiếng Anh cổ \"sona\" nghĩa là ngay lập tức, sớm",
+  tip:"Cụm cực quan trọng: <em>as soon as</em> = ngay khi. Trong mệnh đề sau <em>as soon as</em>, tiếng Anh thường dùng hiện tại để nói về tương lai: <em>I'll call you as soon as I arrive.</em>",
+  practice:"Đặt 2 câu: một câu với \"soon\", một câu với \"as soon as\"."
+},
+{
+  id:226, word:"body", ipa:"/ˈbɑːdi/",
+  type:"Danh từ (Noun)",
+  meaning:"cơ thể, thân thể; phần chính của vật; tổ chức, nhóm",
+  explanation:"\"Body\" thường nghĩa là cơ thể người hoặc động vật, nhưng cũng có thể chỉ phần chính của một vật (<em>the body of a car</em>) hoặc một cơ quan/tổ chức (<em>a governing body</em>). Cụm rất hay gặp: <em>body language</em>, <em>body temperature</em>, <em>body parts</em>, <em>body of water</em>.",
+  examples:[
+    {en:"Exercise is good for your <b>body</b> and mind.", vi:"Tập thể dục tốt cho cơ thể và tinh thần của bạn."},
+    {en:"Her <b>body</b> language showed that she was nervous.", vi:"Ngôn ngữ cơ thể của cô ấy cho thấy cô ấy đang lo lắng."},
+    {en:"The car's <b>body</b> was badly damaged.", vi:"Thân xe bị hư hại nặng."}
+  ],
+  pvSection:{title:"Cụm với BODY", items:[
+    {pv:"body language", meaning:"ngôn ngữ cơ thể — <em>\"Watch his body language\"</em>"},
+    {pv:"body temperature", meaning:"nhiệt độ cơ thể — <em>\"Her body temperature is high\"</em>"},
+    {pv:"body parts", meaning:"các bộ phận cơ thể — <em>\"Learn the body parts in English\"</em>"},
+    {pv:"a body of water", meaning:"vùng nước lớn — <em>\"a large body of water\"</em>"}
+  ]},
+  family:[
+    {word:"bodily", pos:"adj./adv.", meaning:"thuộc cơ thể; bằng thân thể"},
+    {word:"somebody", pos:"pron.", meaning:"ai đó"},
+    {word:"anybody", pos:"pron.", meaning:"bất kỳ ai"},
+    {word:"bodyguard", pos:"n.", meaning:"vệ sĩ"}
+  ],
+  correct:"human body / body language / upper body / body temperature",
+  wrong:"My body is pain. (❌ Đúng: \"My body hurts\" hoặc \"I have body pain\")",
+  synonyms:"physique (thể hình), form (hình thể), frame (khung cơ thể), torso (thân trên — hẹp hơn)",
+  antonyms:"mind (tâm trí), soul (linh hồn) — đối lập theo nghĩa trừu tượng",
+  root:"Từ tiếng Anh cổ \"bodig\" nghĩa là thân thể",
+  tip:"Đừng chỉ học \"body\" = cơ thể. Hãy nhớ luôn <em>body language</em> vì đây là cụm cực phổ biến trong giao tiếp và tâm lý.",
+  practice:"Đặt 1 câu với \"body\" là cơ thể và 1 câu với cụm \"body language\"."
+},
+{
+  id:227, word:"dog", ipa:"/dɔːɡ/",
+  type:"Danh từ (Noun) / Động từ (Verb)",
+  meaning:"con chó; bám riết, đeo bám",
+  explanation:"\"Dog\" trước hết là con chó — một trong những từ cơ bản nhất. Nhưng nó cũng có thể là động từ trong nghĩa bám theo dai dẳng, dù nghĩa này ít gặp hơn trong giao tiếp cơ bản. Từ này xuất hiện trong nhiều thành ngữ: <em>top dog</em> (kẻ mạnh nhất/người đứng đầu), <em>every dog has its day</em> (ai rồi cũng có lúc may mắn), <em>dog tired</em> (mệt rã rời).",
+  examples:[
+    {en:"Their <b>dog</b> waits by the gate every afternoon.", vi:"Con chó của họ chiều nào cũng chờ bên cổng."},
+    {en:"I was <b>dog</b>-tired after the trip.", vi:"Tôi mệt rã rời sau chuyến đi."},
+    {en:"Bad luck seemed to <b>dog</b> him for years.", vi:"Vận xui dường như đeo bám anh ấy suốt nhiều năm."}
+  ],
+  pvSection:{title:"Cụm với DOG", items:[
+    {pv:"dog tired", meaning:"Mệt rã rời — <em>\"I'm dog tired tonight\"</em>"},
+    {pv:"top dog", meaning:"người đứng đầu — <em>\"She's the top dog in the company\"</em>"},
+    {pv:"every dog has its day", meaning:"ai cũng có lúc gặp may — <em>\"Don't give up — every dog has its day\"</em>"},
+    {pv:"puppy dog eyes", meaning:"ánh mắt cún con năn nỉ — <em>\"He gave me puppy dog eyes\"</em>"}
+  ]},
+  family:[
+    {word:"doggy / doggie", pos:"n.", meaning:"cún con (thân mật)"},
+    {word:"doghouse", pos:"n.", meaning:"chuồng chó"},
+    {word:"dogged", pos:"adj.", meaning:"kiên trì, lì lợm"},
+    {word:"puppy", pos:"n.", meaning:"chó con"}
+  ],
+  correct:"pet dog / dog tired / walk the dog / a loyal dog",
+  wrong:"He is tired as a dog. (⚠️ Tự nhiên hơn: \"dog tired\" hoặc \"tired as a dog\" ít tự nhiên hơn nhiều)",
+  synonyms:"canine (loài chó — trang trọng), puppy (chó con), hound (chó săn / chó nói chung trong vài ngữ cảnh)",
+  antonyms:"cat (mèo) — đối lập tự nhiên trong đời sống, though not true antonym",
+  root:"Từ tiếng Anh cổ muộn \"docga\" nghĩa là giống chó mạnh",
+  tip:"Cụm rất tự nhiên: <em>walk the dog</em> = dắt chó đi dạo. Và <em>dog tired</em> = cực kỳ mệt, nghe rất đời thường.",
+  practice:"Đặt 1 câu về con chó thật và 1 câu dùng thành ngữ với \"dog\"."
+},
+{
+  id:228, word:"family", ipa:"/ˈfæməli/",
+  type:"Danh từ (Noun)",
+  meaning:"gia đình; họ, dòng họ; nhóm cùng loại",
+  explanation:"\"Family\" thường chỉ những người có quan hệ huyết thống hoặc sống cùng nhau như một gia đình. Nó cũng có thể dùng theo nghĩa rộng hơn như <em>the language family</em> (họ ngôn ngữ), <em>a family business</em>. Cụm rất thường gặp: <em>family member</em>, <em>family name</em>, <em>extended family</em>, <em>start a family</em>, <em>run in the family</em>.",
+  examples:[
+    {en:"My <b>family</b> gets together every Lunar New Year.", vi:"Gia đình tôi tụ họp mỗi dịp Tết."},
+    {en:"Good health habits should start in the <b>family</b>.", vi:"Thói quen tốt cho sức khỏe nên bắt đầu từ gia đình."},
+    {en:"Music runs in her <b>family</b>.", vi:"Âm nhạc là truyền thống trong gia đình cô ấy."}
+  ],
+  pvSection:{title:"Cụm với FAMILY", items:[
+    {pv:"family member", meaning:"thành viên gia đình — <em>\"Each family member has a role\"</em>"},
+    {pv:"extended family", meaning:"đại gia đình, họ hàng rộng — <em>\"My extended family lives nearby\"</em>"},
+    {pv:"family name", meaning:"họ — <em>\"Nguyen is a common family name\"</em>"},
+    {pv:"run in the family", meaning:"có tính di truyền / là truyền thống gia đình — <em>\"Art runs in the family\"</em>"}
+  ]},
+  family:[
+    {word:"familiar", pos:"adj.", meaning:"quen thuộc"},
+    {word:"familial", pos:"adj.", meaning:"thuộc về gia đình"},
+    {word:"family-friendly", pos:"adj.", meaning:"phù hợp cho gia đình"},
+    {word:"multifamily", pos:"adj.", meaning:"đa hộ gia đình"}
+  ],
+  correct:"my family / family member / family business / start a family",
+  wrong:"My family are four people. (⚠️ Có thể chấp nhận ở vài ngữ cảnh, nhưng tự nhiên hơn: \"There are four people in my family\")",
+  synonyms:"household (hộ gia đình), relatives (họ hàng), clan (thị tộc/dòng họ), kin (người thân)",
+  antonyms:"strangers (người lạ), outsiders (người ngoài)",
+  root:"Từ Latin \"familia\" nghĩa là người trong nhà, hộ gia đình",
+  tip:"Trong tiếng Anh, khi giới thiệu số người trong gia đình, mẫu tự nhiên là: <em>There are five people in my family.</em> Không nên dịch sát từng chữ từ tiếng Việt.",
+  practice:"Đặt 2 câu: một câu về gia đình bạn, một câu với cụm \"family member\"."
+},
+{
+  id:229, word:"direct", ipa:"/dəˈrekt/ · /daɪˈrekt/",
+  type:"Tính từ (Adjective) / Động từ (Verb) / Trạng từ (Adverb — less common in fixed phrases)",
+  meaning:"trực tiếp, thẳng; chỉ đạo, hướng dẫn, đạo diễn",
+  explanation:"\"Direct\" có hai nhóm nghĩa lớn. Là tính từ, nó nghĩa là trực tiếp, thẳng, không vòng vo: <em>a direct answer</em>, <em>a direct flight</em>. Là động từ, nó nghĩa là chỉ đạo, hướng dẫn, điều khiển, hoặc đạo diễn phim. Phát âm có thể khác nhẹ tùy giọng và từ loại, nhưng cả /dəˈrekt/ và /daɪˈrekt/ đều gặp. Cụm hay gặp: <em>direct flight</em>, <em>direct contact</em>, <em>direct someone to</em>, <em>film director</em>.",
+  examples:[
+    {en:"Is there a <b>direct</b> bus to the city center?", vi:"Có xe buýt đi thẳng đến trung tâm thành phố không?"},
+    {en:"She likes people who are honest and <b>direct</b>.", vi:"Cô ấy thích những người trung thực và thẳng thắn."},
+    {en:"A police officer <b>directed</b> us to the nearest hospital.", vi:"Một cảnh sát đã chỉ đường cho chúng tôi đến bệnh viện gần nhất."}
+  ],
+  pvSection:{title:"Cụm với DIRECT", items:[
+    {pv:"direct flight", meaning:"chuyến bay thẳng — <em>\"We booked a direct flight\"</em>"},
+    {pv:"direct answer", meaning:"câu trả lời thẳng, trực tiếp — <em>\"Give me a direct answer\"</em>"},
+    {pv:"direct someone to", meaning:"chỉ ai đến đâu — <em>\"He directed me to the office\"</em>"},
+    {pv:"direct access", meaning:"quyền truy cập trực tiếp — <em>\"Employees have direct access to data\"</em>"}
+  ]},
+  family:[
+    {word:"direction", pos:"n.", meaning:"hướng; chỉ dẫn"},
+    {word:"director", pos:"n.", meaning:"giám đốc; đạo diễn"},
+    {word:"directly", pos:"adv.", meaning:"trực tiếp; ngay lập tức"},
+    {word:"indirect", pos:"adj.", meaning:"gián tiếp"}
+  ],
+  correct:"direct flight / direct answer / direct traffic / direct someone to a place",
+  wrong:"She is very directly person. (❌ Đúng: \"She is a very direct person\")",
+  synonyms:"straight (thẳng), immediate (trực tiếp/ngay), frank (thẳng thắn), guide (hướng dẫn)",
+  antonyms:"indirect (gián tiếp), roundabout (vòng vo), mislead (đánh lạc hướng)",
+  root:"Từ Latin \"directus\" nghĩa là thẳng, được sắp xếp theo đường thẳng",
+  tip:"Hãy nhớ hai cụm siêu thông dụng: <em>direct flight</em> = bay thẳng, và <em>be direct</em> = nói thẳng, không vòng vo.",
+  practice:"Đặt 1 câu với \"direct\" là tính từ và 1 câu với \"direct\" là động từ."
+},
+{
+  id:230, word:"pose", ipa:"/poʊz/",
+  type:"Động từ (Verb) / Danh từ (Noun)",
+  meaning:"tạo dáng; đặt ra (câu hỏi/vấn đề); tư thế, dáng đứng",
+  explanation:"\"Pose\" thường được biết đến với nghĩa tạo dáng khi chụp ảnh, nhưng nó còn có nghĩa học thuật hơn là đặt ra một câu hỏi, vấn đề hay thách thức: <em>pose a problem</em>, <em>pose a question</em>. Là danh từ, <em>pose</em> là tư thế, dáng đứng hoặc cách tạo dáng. Cụm hay gặp: <em>strike a pose</em>, <em>pose for a photo</em>, <em>pose a threat</em>.",
+  examples:[
+    {en:"The model <b>posed</b> by the window for the photo.", vi:"Người mẫu tạo dáng bên cửa sổ để chụp ảnh."},
+    {en:"This new law may <b>pose</b> a challenge for small businesses.", vi:"Luật mới này có thể đặt ra thách thức cho các doanh nghiệp nhỏ."},
+    {en:"He stood in a heroic <b>pose</b>.", vi:"Anh ấy đứng trong một tư thế đầy vẻ anh hùng."}
+  ],
+  pvSection:{title:"Cụm với POSE", items:[
+    {pv:"pose for a photo", meaning:"tạo dáng chụp ảnh — <em>\"They posed for a family photo\"</em>"},
+    {pv:"strike a pose", meaning:"tạo dáng — <em>\"Come on, strike a pose!\"</em>"},
+    {pv:"pose a question", meaning:"đặt ra câu hỏi — <em>\"May I pose a question?\"</em>"},
+    {pv:"pose a threat", meaning:"gây ra / đặt ra mối đe dọa — <em>\"The fire posed a threat to homes\"</em>"}
+  ]},
+  family:[
+    {word:"posing", pos:"n./adj.", meaning:"việc tạo dáng"},
+    {word:"posture", pos:"n.", meaning:"tư thế"},
+    {word:"composed", pos:"adj.", meaning:"điềm tĩnh (khác gốc trực tiếp nhưng dễ liên tưởng âm)"}
+  ],
+  correct:"pose for pictures / pose a problem / strike a pose / pose a threat",
+  wrong:"He posed a photo. (❌ Đúng: \"He posed for a photo\" hoặc \"He took a photo\")",
+  synonyms:"position (đặt vị trí/tư thế), model (làm mẫu), present (đưa ra), raise (đặt ra vấn đề)",
+  antonyms:"answer (trả lời — với câu hỏi), solve (giải quyết — với vấn đề), relax (thả lỏng — với dáng đứng)",
+  root:"Từ Latin/Pháp cổ liên quan đến nghĩa đặt, sắp đặt",
+  tip:"Đừng chỉ nhớ \"pose\" = tạo dáng. Trong tiếng Anh học thuật, <em>pose a question / pose a problem</em> rất thường gặp.",
+  practice:"Đặt 1 câu về chụp ảnh với \"pose\" và 1 câu về vấn đề/câu hỏi với \"pose\"."
+},
+{
+  id:231, word:"leave", ipa:"/liːv/",
+  type:"Động từ (Verb) / Danh từ (Noun)",
+  meaning:"rời đi; để lại; cho phép; nghỉ phép",
+  explanation:"\"Leave\" là một động từ rất quan trọng với nhiều nghĩa: rời khỏi một nơi, để lại vật gì đó, để cho ai đó ở nguyên trạng thái nào đó, hoặc cho phép. Là danh từ, <em>leave</em> thường nghĩa là nghỉ phép: <em>annual leave</em>. Cụm thường gặp: <em>leave home</em>, <em>leave a message</em>, <em>leave behind</em>, <em>leave for</em>, <em>on leave</em>.",
+  examples:[
+    {en:"What time do you usually <b>leave</b> for work?", vi:"Bạn thường rời đi làm lúc mấy giờ?"},
+    {en:"Please <b>leave</b> your shoes outside the door.", vi:"Làm ơn để giày của bạn bên ngoài cửa."},
+    {en:"She's on maternity <b>leave</b> this month.", vi:"Tháng này cô ấy đang nghỉ thai sản."}
+  ],
+  pvSection:{title:"Cụm với LEAVE", items:[
+    {pv:"leave for", meaning:"rời đi tới đâu — <em>\"We leave for Hanoi tomorrow\"</em>"},
+    {pv:"leave behind", meaning:"bỏ lại phía sau — <em>\"Don't leave your bag behind\"</em>"},
+    {pv:"leave a message", meaning:"để lại lời nhắn — <em>\"Please leave a message after the tone\"</em>"},
+    {pv:"on leave", meaning:"đang nghỉ phép — <em>\"The manager is on leave\"</em>"}
+  ]},
+  family:[
+    {word:"left", pos:"v.", meaning:"quá khứ/quá khứ phân từ của leave"},
+    {word:"leaving", pos:"n./adj.", meaning:"sự rời đi"},
+    {word:"leaf", pos:"n.", meaning:"lá cây (khác từ, dễ nhầm chính tả)"},
+    {word:"leave-taking", pos:"n.", meaning:"sự chia tay, từ biệt"}
+  ],
+  correct:"leave home / leave early / leave the door open / annual leave",
+  wrong:"I left to my book on the table. (❌ Đúng: \"I left my book on the table\")",
+  synonyms:"go away (rời đi), depart (khởi hành), abandon (bỏ lại), allow (để cho)",
+  antonyms:"arrive (đến), stay (ở lại), take (mang đi), keep (giữ lại)",
+  root:"Từ tiếng Anh cổ \"laefan\" nghĩa là để lại, giao lại",
+  tip:"Cấu trúc rất hữu ích: <em>leave + object + adjective</em> như <em>leave the door open</em>, <em>leave me alone</em>. Đây là mẫu cực phổ biến trong hội thoại.",
+  practice:"Đặt 2 câu: một câu với \"leave\" = rời đi, một câu với \"leave\" = để lại."
+},
+{
+  id:232, word:"song", ipa:"/sɔːŋ/",
+  type:"Danh từ (Noun)",
+  meaning:"bài hát, ca khúc",
+  explanation:"\"Song\" là bài hát có lời, giai điệu, thường được hát lên. Phân biệt <em>song</em> và <em>music</em>: <em>song</em> là một bài hát cụ thể; <em>music</em> là âm nhạc nói chung. Cụm thường gặp: <em>theme song</em>, <em>love song</em>, <em>sing a song</em>, <em>birdsong</em>, <em>swan song</em> (tác phẩm/lần cuối trước khi kết thúc).",
+  examples:[
+    {en:"That <b>song</b> always reminds me of my childhood.", vi:"Bài hát đó luôn làm tôi nhớ về tuổi thơ."},
+    {en:"She sang a traditional folk <b>song</b>.", vi:"Cô ấy hát một bài dân ca truyền thống."},
+    {en:"What's your favorite <b>song</b> these days?", vi:"Dạo này bài hát bạn thích nhất là gì?"}
+  ],
+  pvSection:{title:"Cụm với SONG", items:[
+    {pv:"theme song", meaning:"bài hát chủ đề — <em>\"I love the movie's theme song\"</em>"},
+    {pv:"love song", meaning:"bài hát tình yêu — <em>\"He wrote her a love song\"</em>"},
+    {pv:"sing a song", meaning:"hát một bài hát — <em>\"Let's sing a song together\"</em>"},
+    {pv:"swan song", meaning:"tác phẩm/lần cuối cùng — <em>\"The film was his swan song\"</em>"}
+  ]},
+  family:[
+    {word:"singer", pos:"n.", meaning:"ca sĩ"},
+    {word:"sing", pos:"v.", meaning:"hát"},
+    {word:"songwriter", pos:"n.", meaning:"nhạc sĩ viết bài hát"},
+    {word:"singing", pos:"n.", meaning:"việc hát"}
+  ],
+  correct:"favorite song / sing a song / pop song / love song",
+  wrong:"I like this music song. (❌ Thường chỉ cần \"this song\" hoặc \"this piece of music\")",
+  synonyms:"tune (giai điệu/bài hát), track (ca khúc — hiện đại), ballad (bản ballad), anthem (ca khúc chính thức)",
+  antonyms:"silence (im lặng), speech (lời nói — không hát)",
+  root:"Từ tiếng Anh cổ \"sang\" nghĩa là bài hát",
+  tip:"Hãy nhớ: <em>song</em> là bài hát cụ thể; <em>music</em> là âm nhạc nói chung. Bạn nói <em>I love this song</em> nhưng <em>I love music</em>.",
+  practice:"Đặt 1 câu về bài hát bạn thích và 1 câu với cụm \"sing a song\"."
+},
+{
+  id:233, word:"measure", ipa:"/ˈmeʒər/",
+  type:"Động từ (Verb) / Danh từ (Noun)",
+  meaning:"đo, đo lường; biện pháp; mức độ",
+  explanation:"\"Measure\" có hai nhánh nghĩa lớn. Là động từ, nó nghĩa là đo độ dài, khối lượng, nhiệt độ, mức độ. Là danh từ, nó nghĩa là đơn vị đo hoặc biện pháp được thực hiện để giải quyết vấn đề: <em>safety measures</em>. Cụm rất thường gặp: <em>measure up</em>, <em>measure against</em>, <em>take measures</em>, <em>by any measure</em>.",
+  examples:[
+    {en:"We need to <b>measure</b> the room before buying furniture.", vi:"Chúng ta cần đo căn phòng trước khi mua đồ nội thất."},
+    {en:"The government introduced new safety <b>measures</b>.", vi:"Chính phủ đã đưa ra các biện pháp an toàn mới."},
+    {en:"Success can't always be <b>measured</b> by money.", vi:"Thành công không phải lúc nào cũng có thể đo bằng tiền."}
+  ],
+  pvSection:{title:"Cụm với MEASURE", items:[
+    {pv:"take measures", meaning:"thực hiện biện pháp — <em>\"We must take measures now\"</em>"},
+    {pv:"safety measures", meaning:"biện pháp an toàn — <em>\"Follow all safety measures\"</em>"},
+    {pv:"measure up", meaning:"đạt yêu cầu, xứng tầm — <em>\"He didn't measure up to expectations\"</em>"},
+    {pv:"measure against", meaning:"đo/đánh giá so với — <em>\"Measure your progress against your goals\"</em>"}
+  ]},
+  family:[
+    {word:"measurement", pos:"n.", meaning:"sự đo lường; số đo"},
+    {word:"measurable", pos:"adj.", meaning:"đo được"},
+    {word:"immeasurable", pos:"adj.", meaning:"không thể đo được"},
+    {word:"measuring", pos:"adj.", meaning:"dùng để đo"}
+  ],
+  correct:"measure the table / body measurements / take measures / safety measure",
+  wrong:"Please measure about the wall. (❌ Đúng: \"Please measure the wall\")",
+  synonyms:"gauge (đo/đánh giá), assess (đánh giá), quantify (định lượng), action (biện pháp — với nghĩa noun)",
+  antonyms:"guess (đoán), ignore (bỏ qua), neglect (bỏ mặc)",
+  root:"Từ Latin \"mensura\" nghĩa là sự đo lường",
+  tip:"Đừng quên nghĩa danh từ: <em>take measures</em> = thực hiện biện pháp. Đây là cụm rất hay gặp trong báo chí và học thuật.",
+  practice:"Đặt 1 câu với \"measure\" là động từ và 1 câu với \"measure\" là danh từ."
+},
+{
+  id:234, word:"door", ipa:"/dɔːr/",
+  type:"Danh từ (Noun)",
+  meaning:"cánh cửa, cửa ra vào",
+  explanation:"\"Door\" là lối ra vào của phòng, nhà, xe, v.v. Ngoài nghĩa vật lý, nó còn xuất hiện trong các cụm nghĩa bóng như <em>open the door to</em> (mở ra cơ hội cho), <em>behind closed doors</em> (kín đáo, không công khai), <em>show someone the door</em> (mời ra ngoài/đuổi khéo).",
+  examples:[
+    {en:"Please close the <b>door</b> when you leave.", vi:"Làm ơn đóng cửa khi bạn ra ngoài."},
+    {en:"A part-time job opened the <b>door</b> to new opportunities.", vi:"Một công việc bán thời gian đã mở ra cơ hội mới."},
+    {en:"I heard someone knocking at the <b>door</b>.", vi:"Tôi nghe thấy ai đó gõ cửa."}
+  ],
+  pvSection:{title:"Cụm với DOOR", items:[
+    {pv:"open the door", meaning:"mở cửa; mở ra cơ hội — <em>\"This course opened the door to a new career\"</em>"},
+    {pv:"behind closed doors", meaning:"kín đáo, không công khai — <em>\"The deal was made behind closed doors\"</em>"},
+    {pv:"next door", meaning:"ở bên cạnh — <em>\"My aunt lives next door\"</em>"},
+    {pv:"show someone the door", meaning:"mời/đuổi ai ra ngoài — <em>\"The manager showed him the door\"</em>"}
+  ]},
+  family:[
+    {word:"doorway", pos:"n.", meaning:"khung cửa, lối cửa"},
+    {word:"doorman", pos:"n.", meaning:"người gác cửa"},
+    {word:"outdoor", pos:"adj.", meaning:"ngoài trời"},
+    {word:"indoors", pos:"adv.", meaning:"trong nhà"}
+  ],
+  correct:"open the door / front door / next door / knock on the door",
+  wrong:"He entered from the door. (⚠️ Tự nhiên hơn: \"He came in through the door\")",
+  synonyms:"entrance (lối vào), gate (cổng — khác loại), doorway (khung/lối cửa)",
+  antonyms:"exit (lối ra — theo chức năng), wall (tường — đối lập cấu trúc)",
+  root:"Từ tiếng Anh cổ \"duru\" nghĩa là cửa",
+  tip:"Học luôn hai giới từ: <em>at the door</em> = ở cửa, <em>through the door</em> = xuyên qua cánh cửa / đi qua cửa.",
+  practice:"Đặt 1 câu với \"door\" nghĩa đen và 1 câu với cụm nghĩa bóng \"open the door to...\"."
+},
+{
+  id:235, word:"product", ipa:"/ˈprɑːdʌkt/",
+  type:"Danh từ (Noun)",
+  meaning:"sản phẩm; kết quả tạo ra",
+  explanation:"\"Product\" thường là thứ được sản xuất để bán, nhưng cũng có thể là kết quả của một quá trình: <em>the product of years of effort</em>. Phân biệt <em>product</em> và <em>produce</em>: <em>product</em> là danh từ (sản phẩm), còn <em>produce</em> thường là động từ (sản xuất) hoặc danh từ chỉ nông sản. Cụm hay gặp: <em>new product</em>, <em>product design</em>, <em>product quality</em>, <em>end product</em>.",
+  examples:[
+    {en:"This company makes eco-friendly <b>products</b>.", vi:"Công ty này sản xuất các sản phẩm thân thiện với môi trường."},
+    {en:"The final <b>product</b> looks better than we expected.", vi:"Sản phẩm cuối cùng trông đẹp hơn chúng tôi mong đợi."},
+    {en:"Success is often the <b>product</b> of hard work.", vi:"Thành công thường là kết quả của lao động chăm chỉ."}
+  ],
+  pvSection:{title:"Cụm với PRODUCT", items:[
+    {pv:"new product", meaning:"sản phẩm mới — <em>\"They're launching a new product\"</em>"},
+    {pv:"product quality", meaning:"chất lượng sản phẩm — <em>\"Product quality matters most\"</em>"},
+    {pv:"product design", meaning:"thiết kế sản phẩm — <em>\"She studies product design\"</em>"},
+    {pv:"end product", meaning:"thành phẩm cuối cùng — <em>\"The end product was impressive\"</em>"}
+  ]},
+  family:[
+    {word:"produce", pos:"v./n.", meaning:"sản xuất; nông sản"},
+    {word:"production", pos:"n.", meaning:"sự sản xuất"},
+    {word:"productive", pos:"adj.", meaning:"năng suất, hiệu quả"},
+    {word:"productivity", pos:"n.", meaning:"năng suất"}
+  ],
+  correct:"quality product / product design / launch a product / final product",
+  wrong:"This is a very produce company. (❌ Đúng: \"This is a very productive company\" hoặc \"This company produces a lot\")",
+  synonyms:"item (mặt hàng), goods (hàng hóa), merchandise (hàng hóa), output (sản lượng/kết quả)",
+  antonyms:"raw material (nguyên liệu thô), input (đầu vào), waste (phế phẩm — tùy ngữ cảnh)",
+  root:"Từ Latin \"productum\" nghĩa là cái được tạo ra, dẫn ra",
+  tip:"Phân biệt cực quan trọng: <em>product</em> = sản phẩm, <em>produce</em> = sản xuất. Ví dụ: <em>This factory produces products.</em>",
+  practice:"Đặt 1 câu về sản phẩm bán trên thị trường và 1 câu dùng nghĩa bóng của \"product\"."
+},
+{
+  id:236, word:"black", ipa:"/blæk/",
+  type:"Tính từ (Adjective) / Danh từ (Noun)",
+  meaning:"màu đen; màu đen nói chung; tối tăm, u ám (nghĩa bóng trong vài ngữ cảnh)",
+  explanation:"\"Black\" là màu đen, nhưng còn có nhiều sắc thái nghĩa bóng: <em>black coffee</em> (cà phê đen), <em>black market</em> (chợ đen), <em>blackout</em> (mất điện/ngất), <em>in black and white</em> (rõ ràng bằng văn bản). Trong mô tả trang phục, <em>wear black</em> rất thông dụng.",
+  examples:[
+    {en:"He was wearing a <b>black</b> jacket and white shoes.", vi:"Anh ấy mặc áo khoác đen và giày trắng."},
+    {en:"She drinks <b>black</b> coffee with no sugar.", vi:"Cô ấy uống cà phê đen không đường."},
+    {en:"Please put it in <b>black</b> and white.", vi:"Hãy viết nó thành văn bản rõ ràng."}
+  ],
+  pvSection:{title:"Cụm với BLACK", items:[
+    {pv:"black coffee", meaning:"cà phê đen — <em>\"I prefer black coffee\"</em>"},
+    {pv:"black market", meaning:"chợ đen — <em>\"The goods were sold on the black market\"</em>"},
+    {pv:"in black and white", meaning:"rõ ràng bằng văn bản — <em>\"I need the agreement in black and white\"</em>"},
+    {pv:"blackout", meaning:"mất điện; ngất — <em>\"The city had a blackout last night\"</em>"}
+  ]},
+  family:[
+    {word:"blackness", pos:"n.", meaning:"độ đen, bóng tối"},
+    {word:"blacken", pos:"v.", meaning:"làm đen; bôi xấu"},
+    {word:"blacksmith", pos:"n.", meaning:"thợ rèn"},
+    {word:"blackboard", pos:"n.", meaning:"bảng đen"}
+  ],
+  correct:"black shoes / black coffee / wear black / black and white",
+  wrong:"The sky is very blackly tonight. (❌ Đúng: \"The sky is very black tonight\")",
+  synonyms:"dark (tối, đen), jet-black (đen tuyền), pitch-black (đen kịt)",
+  antonyms:"white (trắng), bright (sáng), pale (nhạt màu)",
+  root:"Từ tiếng Anh cổ \"blaec\" nghĩa là đen, tối",
+  tip:"Cụm hay gặp ngoài đời sống: <em>in black and white</em> = viết/ghi rõ ràng bằng văn bản, không còn mơ hồ.",
+  practice:"Đặt 1 câu về màu sắc với \"black\" và 1 câu với cụm \"black coffee\" hoặc \"in black and white\"."
+},
+{
+  id:237, word:"short", ipa:"/ʃɔːrt/",
+  type:"Tính từ (Adjective) / Trạng từ (Adverb — trong vài cụm) / Danh từ (Noun — ít phổ biến cơ bản)",
+  meaning:"ngắn; thấp; thiếu; không đủ",
+  explanation:"\"Short\" thường nghĩa là ngắn về độ dài hoặc thời gian, và thấp về chiều cao. Nó cũng có nghĩa là thiếu hụt: <em>be short of money</em>. Phân biệt <em>short</em> và <em>low</em>: <em>short</em> có thể nói về người thấp hoặc thời gian ngắn; <em>low</em> thường nói về mức độ, độ cao của vật, âm lượng, giá cả. Cụm hay gặp: <em>short hair</em>, <em>a short time</em>, <em>short of</em>, <em>short cut</em>, <em>in short</em>.",
+  examples:[
+    {en:"She has <b>short</b> black hair.", vi:"Cô ấy có mái tóc đen ngắn."},
+    {en:"We only had a <b>short</b> meeting this morning.", vi:"Chúng tôi chỉ có một cuộc họp ngắn sáng nay."},
+    {en:"I'm a little <b>short</b> of cash today.", vi:"Hôm nay tôi hơi thiếu tiền mặt."}
+  ],
+  pvSection:{title:"Cụm với SHORT", items:[
+    {pv:"short of", meaning:"thiếu — <em>\"We're short of time\"</em>"},
+    {pv:"short cut / shortcut", meaning:"đường tắt; cách làm nhanh — <em>\"Let's take a shortcut\"</em>"},
+    {pv:"in short", meaning:"nói ngắn gọn — <em>\"In short, we need a better plan\"</em>"},
+    {pv:"short-term", meaning:"ngắn hạn — <em>\"a short-term goal\"</em>"}
+  ]},
+  family:[
+    {word:"shorten", pos:"v.", meaning:"rút ngắn"},
+    {word:"shortage", pos:"n.", meaning:"sự thiếu hụt"},
+    {word:"brief", pos:"adj.", meaning:"ngắn gọn"},
+    {word:"shortly", pos:"adv.", meaning:"sớm thôi; ngắn gọn"}
+  ],
+  correct:"short hair / short break / short of money / a short answer",
+  wrong:"He is too much short. (❌ Đúng: \"He is too short\")",
+  synonyms:"brief (ngắn), little (thấp/bé — vài ngữ cảnh), lacking (thiếu), concise (ngắn gọn)",
+  antonyms:"long (dài), tall (cao), sufficient (đủ), lengthy (kéo dài)",
+  root:"Từ tiếng Anh cổ \"sceort\" nghĩa là ngắn",
+  tip:"Nhớ cụm cực thông dụng: <em>be short of + noun</em> = thiếu cái gì. Ví dụ: <em>short of time / money / staff</em>.",
+  practice:"Đặt 2 câu: một câu với \"short\" = ngắn, một câu với \"short of\" = thiếu."
+},
+{
+  id:238, word:"numeral", ipa:"/ˈnuːmərəl/",
+  type:"Danh từ (Noun) / Tính từ (Adjective)",
+  meaning:"chữ số; ký hiệu số; thuộc về số",
+  explanation:"\"Numeral\" là từ học thuật hơn so với <em>number</em>. Nó chỉ ký hiệu dùng để biểu diễn số, ví dụ 3, 7, IX. Phân biệt <em>number</em> và <em>numeral</em>: <em>number</em> là khái niệm số lượng; <em>numeral</em> là ký hiệu viết ra để biểu diễn con số đó. Ví dụ: số lượng ba là một <em>number</em>, còn ký hiệu \"3\" là một <em>numeral</em>. Cụm hay gặp: <em>Roman numerals</em>, <em>Arabic numerals</em>.",
+  examples:[
+    {en:"The clock uses Roman <b>numerals</b> instead of regular numbers.", vi:"Chiếc đồng hồ dùng chữ số La Mã thay vì số thông thường."},
+    {en:"The <b>numeral</b> \"8\" represents eight units.", vi:"Chữ số \"8\" biểu thị tám đơn vị."},
+    {en:"Students learned how different cultures wrote <b>numerals</b>.", vi:"Học sinh đã học cách các nền văn hóa khác nhau viết chữ số."}
+  ],
+  pvSection:null,
+  family:[
+    {word:"number", pos:"n.", meaning:"con số, số lượng"},
+    {word:"numeric", pos:"adj.", meaning:"thuộc số, bằng số"},
+    {word:"numerical", pos:"adj.", meaning:"thuộc về số liệu"},
+    {word:"numeracy", pos:"n.", meaning:"khả năng tính toán cơ bản"}
+  ],
+  correct:"Roman numerals / Arabic numerals / the numeral 5",
+  wrong:"Five is a numeral and 5 is a number. (❌ Thường ngược lại: \"five\" là từ chỉ số; \"5\" là numeral; number là khái niệm số)",
+  synonyms:"digit (chữ số — hẹp hơn), symbol (ký hiệu), figure (chữ số/con số — văn cảnh)",
+  antonyms:"word (từ), letter (chữ cái) — đối lập theo hệ ký hiệu",
+  root:"Từ Latin \"numeralis\" nghĩa là thuộc về số",
+  tip:"Mẹo phân biệt: <em>number</em> là ý niệm về số, còn <em>numeral</em> là hình thức viết của số. \"5\" là numeral. \"Five\" là word. Khái niệm chung là number.",
+  practice:"Đặt 1 câu dùng \"Roman numerals\" và 1 câu giải thích khác nhau giữa \"number\" và \"numeral\"."
+},
+{
+  id:239, word:"class", ipa:"/klæs/",
+  type:"Danh từ (Noun) / Động từ (Verb)",
+  meaning:"lớp học; tiết học; hạng, loại; xếp loại",
+  explanation:"\"Class\" có nhiều nghĩa rất thông dụng: lớp học ở trường, buổi học, nhóm/hạng/loại của vật hoặc người. Là động từ, nó nghĩa là xếp vào loại nào đó: <em>be classed as</em>. Cụm thường gặp: <em>in class</em>, <em>classmate</em>, <em>working class</em>, <em>first-class</em>, <em>classify</em> là từ họ hàng rất quan trọng.",
+  examples:[
+    {en:"Our English <b>class</b> starts at eight.", vi:"Lớp tiếng Anh của chúng tôi bắt đầu lúc tám giờ."},
+    {en:"She is always quiet in <b>class</b>.", vi:"Cô ấy lúc nào cũng yên lặng trong lớp học."},
+    {en:"These plants are <b>classed</b> as tropical species.", vi:"Những loài cây này được xếp vào nhóm nhiệt đới."}
+  ],
+  pvSection:{title:"Cụm với CLASS", items:[
+    {pv:"in class", meaning:"trong lớp — <em>\"No phones in class\"</em>"},
+    {pv:"classmate", meaning:"bạn cùng lớp — <em>\"My classmate helped me\"</em>"},
+    {pv:"working class", meaning:"giai cấp lao động — <em>\"a working-class family\"</em>"},
+    {pv:"first-class", meaning:"hạng nhất; tuyệt vời — <em>\"first-class service\"</em>"}
+  ]},
+  family:[
+    {word:"classroom", pos:"n.", meaning:"phòng học"},
+    {word:"classmate", pos:"n.", meaning:"bạn cùng lớp"},
+    {word:"classic", pos:"adj./n.", meaning:"kinh điển"},
+    {word:"classify", pos:"v.", meaning:"phân loại"}
+  ],
+  correct:"go to class / in class / class schedule / first-class service",
+  wrong:"I am in the class now study math. (❌ Đúng: \"I am in class now, studying math\" hoặc \"I am in the math class now\")",
+  synonyms:"lesson (buổi học), course (khóa học), category (loại), group (nhóm)",
+  antonyms:"individual (cá nhân — đối lập nhóm), disorder (không phân loại — theo ngữ cảnh)",
+  root:"Từ Latin \"classis\" nghĩa là hạng, nhóm, đội",
+  tip:"Phân biệt: <em>class</em> có thể là tiết học hoặc nhóm học sinh. <em>I have class at 9</em> = tôi có tiết học lúc 9h. <em>My class is noisy</em> = lớp tôi ồn.",
+  practice:"Đặt 2 câu: một câu với \"class\" = tiết học/lớp học, một câu với nghĩa \"loại/hạng\"."
+},
+{
+  id:240, word:"wind", ipa:"/wɪnd/ (danh từ) · /waɪnd/ (động từ)",
+  type:"Danh từ (Noun) / Động từ (Verb)",
+  meaning:"gió; quấn, uốn khúc, lên dây",
+  explanation:"\"Wind\" là một từ dễ gây bẫy phát âm, giống như <em>close</em>. Là danh từ /wɪnd/, nó nghĩa là gió. Là động từ /waɪnd/, nó nghĩa là quấn quanh, uốn lượn, hoặc lên dây đồng hồ/thiết bị. Cụm rất phổ biến với nghĩa danh từ: <em>strong wind</em>, <em>in the wind</em>, <em>break wind</em> (thô, cần cẩn thận ngữ cảnh), <em>get wind of</em> (nghe phong thanh về). Với nghĩa động từ: <em>wind around</em>, <em>wind up</em>.",
+  examples:[
+    {en:"A cold <b>wind</b> was blowing from the north.", vi:"Một cơn gió lạnh đang thổi từ phía bắc."},
+    {en:"The road <b>winds</b> through the mountains.", vi:"Con đường uốn lượn qua núi."},
+    {en:"She had to <b>wind</b> the old clock by hand.", vi:"Cô ấy phải lên dây chiếc đồng hồ cũ bằng tay."}
+  ],
+  pvSection:{title:"Cụm với WIND", items:[
+    {pv:"strong wind", meaning:"gió mạnh — <em>\"Strong winds damaged several trees\"</em>"},
+    {pv:"get wind of", meaning:"nghe phong thanh về — <em>\"He got wind of the plan\"</em>"},
+    {pv:"wind around", meaning:"quấn quanh / uốn quanh — <em>\"The river winds around the village\"</em>"},
+    {pv:"wind up", meaning:"lên dây; kết thúc; chọc tức (tùy ngữ cảnh) — <em>\"Wind up the toy\"</em>"}
+  ]},
+  family:[
+    {word:"windy", pos:"adj.", meaning:"nhiều gió"},
+    {word:"winding", pos:"adj.", meaning:"quanh co, uốn lượn"},
+    {word:"windmill", pos:"n.", meaning:"cối xay gió"},
+    {word:"window", pos:"n.", meaning:"cửa sổ (không cùng nghĩa nhưng dễ liên tưởng âm)"}
+  ],
+  correct:"a strong wind / windy day / the path winds uphill / wind the clock",
+  wrong:"The wind is very strong, it can wind the trees. (⚠️ Có thể hiểu sai do trùng từ; tự nhiên hơn: \"The wind is very strong; it is bending the trees\")",
+  synonyms:"breeze (gió nhẹ), gust (luồng gió mạnh), air current (luồng không khí), twist (quấn/uốn — nghĩa động từ)",
+  antonyms:"calm (lặng gió), still air (không khí yên), unwind (tháo ra — với nghĩa động từ)",
+  root:"Danh từ từ gốc Germanic nghĩa là gió; động từ từ gốc Germanic khác nghĩa là xoay, quấn",
+  tip:"Phát âm là chìa khóa: <em>wind</em> = /wɪnd/ khi là \"gió\"; <em>wind</em> = /waɪnd/ khi là \"quấn/lên dây\". Học luôn theo cặp: <em>the wind blows</em> nhưng <em>wind the clock</em>.",
+  practice:"Đặt 2 câu: một câu dùng \"wind\" là danh từ và một câu dùng \"wind\" là động từ."
 }
 ];
