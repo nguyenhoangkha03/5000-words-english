@@ -26,7 +26,7 @@ Với mục tiêu 5,000 từ, ứng dụng được tối ưu hóa để:
 
 ### 💾 Lưu Trữ Tiến Độ (LocalStorage)
 Học đến đâu, biết đến đó! Trạng thái **"Đã học"** của bạn sẽ được lưu tự động vào trình duyệt.
-- Thanh tiến độ (Progress Bar) trực quan.
+- Thanh tiến độ (Progress Bar) trực quan.`
 - Không lo mất dữ liệu khi làm mới trang hoặc tắt trình duyệt.
 
 ### 💎 Thiết Kế Hiện Đại & Responsive

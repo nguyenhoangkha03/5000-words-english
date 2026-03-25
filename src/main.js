@@ -4,9 +4,11 @@ import { words as words2 } from '../data/2-index.js';
 import { words as words3 } from '../data/3-index.js';
 import { words as words4 } from '../data/4-index.js';
 import { words as words5 } from '../data/5-index.js';
+import { words as words6 } from '../data/6-index.js';
+import { words as words7 } from '../data/7-index.js';
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const words = [...words1, ...words2, ...words3, ...words4, ...words5];
+const words = [...words1, ...words2, ...words3, ...words4, ...words5, ...words6, ...words7];
 const FAMILIAR_PROMPT = `Bạn là giáo viên tiếng Anh dạy người Việt.`;
 
 // Khởi tạo Gemini AI
